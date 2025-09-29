@@ -2,7 +2,7 @@
 **Evaluation of anonymized databases regarding privacy risks using OSINT (Open Source Intelligence) sources.**
 
 ## Overview
-This repository contains the final report of the **Cassiopeia project**, carried out between January and June 2025.
+This repository contains the final report of the **Cassiopee Project**, carried out between January and June 2025.
 The objective of the project is to assess the risk of re-identification in anonymized databases by exploiting **OSINT** (Open Source Intelligence) sources.
 
 ## Authors
@@ -11,14 +11,13 @@ The objective of the project is to assess the risk of re-identification in anony
 
 Supervised by:
 - Maryline LAURENT
-- Louis Philippe SONDECK
+- Louis-Philippe SONDECK
 
 ## Repository structure
 - `Rapport Cassiopée.pdf` : final project report (in French).
 - `data/` : synthetic datasets used for testing.
+- `results/` : results of the study.
 - `scripts/` : Python scripts for analysis and demonstrations.
-- `figures/` : illustrations and diagrams from the report.
-- `references/` : bibliography and additional resources.
 
 ## Details of directories and scripts
 
@@ -37,7 +36,6 @@ Supervised by:
   Contains the outputs produced by running the scripts.
   - `results/elections/` → processed Excel files with subsets of election data.
   - `results/depression/depression.html` → HTML page displaying unique profiles and simulated re-identification risks.
----
 
 ## Notes
 All data used in this project is **synthetic or anonymized** in order to comply with confidentiality and regulatory requirements (GDPR).
@@ -48,4 +46,3 @@ developed by Maxence DEBES and Vadim HEMZELLEC-DAVIDSON,
 based on an idea by Louis-Philippe SONDECK and Maryline LAURENT, 2025.
 
 Distributed under the **CC BY 4.0 license**.
-→ [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
